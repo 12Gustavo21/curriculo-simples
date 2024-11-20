@@ -1,0 +1,40 @@
+main {
+  height: 175vh;
+}
+
+.main__apresentation {
+  height: 35vh;
+}
+
+.sumario ul,
+.competencias ul {
+  padding: 2rem 2.5rem;
+}
+
+.endereco,
+.experiencia,
+.competencias,
+.formacao__academica {
+  padding-bottom: 1.5rem;
+}
+
+.endereco dl,
+.experiencia dl,
+.formacao__academica__content {
+  padding: 1.5rem 0;
+}
+
+.formacao__academica__content {
+  height: 35vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+footer {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

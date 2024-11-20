@@ -1,0 +1,83 @@
+:root {
+  --font-primary: #00008b;
+  --background-primary: #87cefa
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p,
+dt,
+dd {
+  color: #2f4f4f;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bg__blue {
+  background-color: var(--background-primary);
+}
+
+dd,
+ul {
+  padding-left: 2.5rem;
+}
+
+h1,
+h2,
+a,
+a:visited {
+  color: var(--font-primary);
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+.main__container {
+  padding: 0 .5rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.main__apresentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+
+  img {
+    width: 6.25rem;
+    border-radius: 100%;
+  }
+}
