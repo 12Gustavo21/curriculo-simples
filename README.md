@@ -19,4 +19,4 @@ _Technologies_
 - code . (if you use VSCode)
 - start a live server
 
-## 💻 Online Page: None yet
+## 💻 Online Page: https://12gustavo21.github.io/curriculo-simples
