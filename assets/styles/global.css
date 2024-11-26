@@ -7,16 +7,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #2f4f4f;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-p,
-dt,
-dd {
-  color: #2f4f4f;
 }
 
 body {
@@ -44,6 +39,21 @@ h1,
 h2,
 a,
 a:visited {
+  color: var(--font-primary);
+}
+
+h1 a,
+h1 a:visited {
+  color: #fff;
+}
+
+h2 a,
+h2 a:visited {
+  color: var(--background-primary);
+}
+
+h1:hover a,
+h2:hover a {
   color: var(--font-primary);
 }
 
